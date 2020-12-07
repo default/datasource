@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		A417699B25792CBD006C2583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A417699A25792CBD006C2583 /* AppDelegate.swift */; };
-		A417699D25792CBD006C2583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A417699C25792CBD006C2583 /* SceneDelegate.swift */; };
 		A417699F25792CBD006C2583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A417699E25792CBD006C2583 /* ViewController.swift */; };
 		A41769A225792CBD006C2583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41769A025792CBD006C2583 /* Main.storyboard */; };
 		A41769A425792CBD006C2583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41769A325792CBD006C2583 /* Assets.xcassets */; };
 		A41769A725792CBD006C2583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41769A525792CBD006C2583 /* LaunchScreen.storyboard */; };
+		A41769BA25792D4D006C2583 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41769B925792D4D006C2583 /* Configurable.swift */; };
+		A41769C525792D88006C2583 /* CollectionViewCellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41769BE25792D88006C2583 /* CollectionViewCellConfiguration.swift */; };
+		A41769C625792D88006C2583 /* CollectionViewCellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41769BF25792D88006C2583 /* CollectionViewCellProvider.swift */; };
+		A41769C725792D88006C2583 /* CollectionViewSectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41769C025792D88006C2583 /* CollectionViewSectionDataSource.swift */; };
+		A41769C825792D88006C2583 /* TableViewCellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41769C225792D88006C2583 /* TableViewCellConfiguration.swift */; };
+		A41769C925792D88006C2583 /* TableViewCellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41769C325792D88006C2583 /* TableViewCellProvider.swift */; };
+		A41769CA25792D88006C2583 /* TableViewSectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41769C425792D88006C2583 /* TableViewSectionDataSource.swift */; };
+		A41769CD25792D97006C2583 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41769CC25792D97006C2583 /* NSObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A417699725792CBD006C2583 /* DataSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A417699A25792CBD006C2583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A417699C25792CBD006C2583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A417699E25792CBD006C2583 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A41769A125792CBD006C2583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A41769A325792CBD006C2583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A41769A625792CBD006C2583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A41769A825792CBD006C2583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41769B925792D4D006C2583 /* Configurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		A41769BE25792D88006C2583 /* CollectionViewCellConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellConfiguration.swift; sourceTree = "<group>"; };
+		A41769BF25792D88006C2583 /* CollectionViewCellProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellProvider.swift; sourceTree = "<group>"; };
+		A41769C025792D88006C2583 /* CollectionViewSectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewSectionDataSource.swift; sourceTree = "<group>"; };
+		A41769C225792D88006C2583 /* TableViewCellConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellConfiguration.swift; sourceTree = "<group>"; };
+		A41769C325792D88006C2583 /* TableViewCellProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellProvider.swift; sourceTree = "<group>"; };
+		A41769C425792D88006C2583 /* TableViewSectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSectionDataSource.swift; sourceTree = "<group>"; };
+		A41769CC25792D97006C2583 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,94 @@
 		A417699925792CBD006C2583 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
-				A417699A25792CBD006C2583 /* AppDelegate.swift */,
-				A417699C25792CBD006C2583 /* SceneDelegate.swift */,
+				A41769B825792D3D006C2583 /* Generic */,
+				A41769B725792D3A006C2583 /* Protocols */,
+				A41769B625792D38006C2583 /* Models */,
+				A41769B525792D34006C2583 /* Extensions */,
+				A41769B125792CDD006C2583 /* Example */,
+				A41769B225792CE2006C2583 /* Config */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		A41769B125792CDD006C2583 /* Example */ = {
+			isa = PBXGroup;
+			children = (
 				A417699E25792CBD006C2583 /* ViewController.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		A41769B225792CE2006C2583 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A417699A25792CBD006C2583 /* AppDelegate.swift */,
 				A41769A025792CBD006C2583 /* Main.storyboard */,
 				A41769A325792CBD006C2583 /* Assets.xcassets */,
 				A41769A525792CBD006C2583 /* LaunchScreen.storyboard */,
 				A41769A825792CBD006C2583 /* Info.plist */,
 			);
-			path = DataSource;
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A41769B525792D34006C2583 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A41769CC25792D97006C2583 /* NSObject.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A41769B625792D38006C2583 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A41769B725792D3A006C2583 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A41769BC25792D88006C2583 /* Cell Configurtion */,
+				A41769B925792D4D006C2583 /* Configurable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A41769B825792D3D006C2583 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		A41769BC25792D88006C2583 /* Cell Configurtion */ = {
+			isa = PBXGroup;
+			children = (
+				A41769BD25792D88006C2583 /* Collection View */,
+				A41769C125792D88006C2583 /* Table View */,
+			);
+			path = "Cell Configurtion";
+			sourceTree = "<group>";
+		};
+		A41769BD25792D88006C2583 /* Collection View */ = {
+			isa = PBXGroup;
+			children = (
+				A41769BE25792D88006C2583 /* CollectionViewCellConfiguration.swift */,
+				A41769BF25792D88006C2583 /* CollectionViewCellProvider.swift */,
+				A41769C025792D88006C2583 /* CollectionViewSectionDataSource.swift */,
+			);
+			path = "Collection View";
+			sourceTree = "<group>";
+		};
+		A41769C125792D88006C2583 /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				A41769C225792D88006C2583 /* TableViewCellConfiguration.swift */,
+				A41769C325792D88006C2583 /* TableViewCellProvider.swift */,
+				A41769C425792D88006C2583 /* TableViewSectionDataSource.swift */,
+			);
+			path = "Table View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +230,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41769BA25792D4D006C2583 /* Configurable.swift in Sources */,
+				A41769CA25792D88006C2583 /* TableViewSectionDataSource.swift in Sources */,
+				A41769C825792D88006C2583 /* TableViewCellConfiguration.swift in Sources */,
 				A417699F25792CBD006C2583 /* ViewController.swift in Sources */,
 				A417699B25792CBD006C2583 /* AppDelegate.swift in Sources */,
-				A417699D25792CBD006C2583 /* SceneDelegate.swift in Sources */,
+				A41769C925792D88006C2583 /* TableViewCellProvider.swift in Sources */,
+				A41769C625792D88006C2583 /* CollectionViewCellProvider.swift in Sources */,
+				A41769CD25792D97006C2583 /* NSObject.swift in Sources */,
+				A41769C525792D88006C2583 /* CollectionViewCellConfiguration.swift in Sources */,
+				A41769C725792D88006C2583 /* CollectionViewSectionDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +388,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UFYJRB578H;
-				INFOPLIST_FILE = DataSource/Info.plist;
+				INFOPLIST_FILE = DataSource/Config/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +397,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = support.lab.DataSource;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +408,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UFYJRB578H;
-				INFOPLIST_FILE = DataSource/Info.plist;
+				INFOPLIST_FILE = DataSource/Config/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +417,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = support.lab.DataSource;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
